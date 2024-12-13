@@ -17,7 +17,7 @@ const Signup = () => {
 					<Link to='/'>
 						<img src={logo} />
 					</Link>
-					<div className='w-[600px] px-5 rounded-2xl mt-8 pt-12 login_box_shadow'>
+					<div className='w-[600px] px-14 rounded-2xl mt-8 pt-12 login_box_shadow'>
 						<h1 className='notosans text-center text-[30px] font-semibold text-[#1F509A]'>
 							SIGN UP
 						</h1>
@@ -31,11 +31,23 @@ const Signup = () => {
 								placeholder='Enter your name'
 							/>
 							<h1 className='mt-4 poppins text-[16px] text-[#333] font-medium'>
-								Number
+								You are
+							</h1>
+							<select className='w-full border-1 rounded-lg py-2 px-1 border-[#5d87ff] outline-none login-input4'>
+								<option
+									value=''
+									disabled>
+									-- Select --
+								</option>
+								<option> Owner</option>
+								<option> Broker</option>
+							</select>
+							<h1 className='mt-4 poppins text-[16px] text-[#333] font-medium'>
+								Contact Number
 							</h1>
 							<input
 								className='mt-1 outline-none px-2 py-1 poppins text-[#666666] text-[15px]'
-								placeholder='Enter your Phone'
+								placeholder='Enter your Number'
 							/>
 							<h1 className='mt-4 poppins text-[16px] text-[#333] font-medium'>
 								Email
