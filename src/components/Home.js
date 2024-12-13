@@ -9,7 +9,7 @@ const Home = () => {
 			<div className='bg_nav'>
 				<Home_navbar />
 				<Searchbar />
-				<div className='mt-20 flex justify-center gap-36'>
+				<div className='mt-20 flex justify-center gap-16 xl:gap-32'>
 					<div>
 						<h1 className='text-[#0A3981] text-[30px] font-medium'>
 							Welcome To Rental Seva
@@ -17,7 +17,7 @@ const Home = () => {
 						<h1 className='textorange text-[26px] font-bold dancing'>
 							#Aur Kitna Sochoge
 						</h1>
-						<p className='w-[500px] text-[14px] font-medium notosans'>
+						<p className='w-[400px] xl:w-[500px] text-[14px] font-medium notosans'>
 							RentalSeva.in is one of the Products of Tagore Ji Computers. It’s
 							a unique platform itself to exchange the real estate’s
 							information. Rental Seva offline platform, where sellers, buyers,
@@ -29,7 +29,7 @@ const Home = () => {
 						</p>
 					</div>
 					<img
-						className='w-[510px]'
+						className='w-[450px] xl:w-[500px]'
 						src={hero_img}
 					/>
 				</div>
