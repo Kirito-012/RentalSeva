@@ -8,15 +8,15 @@ import Footer from '../components/Footer'
 
 const Home = () => {
 	return (
-		<div>
+		<div className='overflow-hidden'>
 			<div className='bg_nav'>
 				<HomeNavbar />
 				<Searchbar />
-				<FIrstSection />
-				<Steps />
-				<OurBranches />
-				<Footer />
 			</div>
+			<FIrstSection />
+			<Steps />
+			<OurBranches />
+			<Footer />
 		</div>
 	)
 }

@@ -30,13 +30,13 @@
 
 /* shadows and backgrounds */
 .bg_footer {
-	background: #d4cec7;
 	/* background-color: #3a619a;
     mask-image: url('./assets/wave.svg');
     mask-size: cover;
     mask-repeat: no-repeat;
     mask-position: center; */
 	background-image: url('./assets/wave.svg');
+	width: 100vw;
 	background-repeat: no-repeat;
 	background-size: cover;
 }

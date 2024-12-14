@@ -6,9 +6,9 @@ const FIrstSection = () => {
 	return (
 		<>
 			{/* first */}
-			<div className='mt-20 flex'>
-				<div className='w-[49vw] flex flex-col justify-center pl-40'>
-					<h1 className='text-[#242424] poppins text-[37px] font-bold'>
+			<div className='mt-20 flex '>
+				<div className='w-[50vw] flex flex-col justify-center pl-20 xl:pl-40'>
+					<h1 className='text-[#242424] poppins text-[34px] xl:text-[37px] font-bold'>
 						Welcome To Rental Seva
 					</h1>
 					<h1 className='textorange text-[26px] font-bold dancing'>
@@ -16,7 +16,7 @@ const FIrstSection = () => {
 					</h1>
 					<div className='flex gap-3 pl-1 pt-2'>
 						<div className='bg-[#727272] w-[2px]'></div>
-						<p className='w-[400px] text-[#565656] xl:w-[500px] text-[14px] notosans'>
+						<p className='w-[400px] text-[#565656] xl:w-[500px] text-[13px] xl:text-[14px] notosans'>
 							RentalSeva.in is one of the Products of Tagore Ji Computers. It’s
 							a unique platform itself to exchange the real estate’s
 							information. Rental Seva offline platform, where sellers, buyers,
@@ -51,24 +51,24 @@ const FIrstSection = () => {
 						alt='heroimage'
 					/>
 				</div>
-				<div className='w-[50vw] flex flex-col justify-center pl-20'>
+				<div className='w-[50vw] flex flex-col justify-center pl-10 pr-10 xl:pr-0 xl:pl-20'>
 					<h1 className='textorange text-[14px] poppins font-semibold'>
 						About Us
 					</h1>
-					<h1 className='text-[#242424] text-[37px] poppins leading-10 font-bold'>
+					<h1 className='text-[#242424] text-[34px] xl:text-[37px] poppins leading-10 font-bold'>
 						The Most Convenient Rental Website
 					</h1>
 					<div className='flex gap-3 pl-1 pt-5'>
 						<div className='bg-[#727272] w-[2px]'></div>
 						<div>
-							<p className='w-[400px] text-[#565656] xl:w-[500px] text-[14px] notosans'>
+							<p className='w-[400px] text-[#565656] xl:w-[500px] text-[13px] xl:text-[14px] notosans'>
 								The website RentalSeva.in is one of the products of Tagore Ji
 								Computers. RentalSeva.in is owned, hosted and operated bye the
 								Tagore Ji Computers. Tagore Ji Computers is a Sole
 								Proprietorship. The Registered office of RentalSeva.in & Tagore
 								Ji Computers is 1st Floor, Palika Bazar, Thanesar, Kurukshetra.
 							</p>
-							<p className='w-[400px] text-[#565656] xl:w-[500px] text-[14px] notosans'>
+							<p className='w-[400px] text-[#565656] xl:w-[500px] text-[13px] xl:text-[14px] notosans'>
 								The RentalSeva.in can modify and amend terms & condition at any
 								time of rental seva services. If any modification and amendment
 								happened in terms & condition then Rentalseva.in will update it

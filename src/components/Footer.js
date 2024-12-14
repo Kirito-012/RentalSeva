@@ -29,7 +29,7 @@ const Footer = () => {
 						<h1 className='notosans font-bold text-lg'>NEWSLETTER</h1>
 						<div className='flex bg-transparent searchbar_shadow pl-3 rounded-md mt-3'>
 							<input
-								className='notosans text-[#5B5B5B] text-sm w-56 bg-transparent outline-none'
+								className='notosans text-[#5B5B5B] text-sm w-64 bg-transparent outline-none'
 								placeholder='Enter your email'
 							/>
 							<button className='text-white bg-[#0A3981] py-3 px-5 poppins tracking-wide font-semibold'>

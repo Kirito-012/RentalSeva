@@ -5,9 +5,9 @@ const BranchSection = ({img, name, location, number}) => {
 	return (
 		<div>
 			<div className='mt-6 rounded-xl group cursor-pointer'>
-				<div className='h-[270px] overflow-hidden'>
+				<div className='h-[230px] xl:h-[270px] overflow-hidden'>
 					<img
-						className='rounded-t-xl transition-all ease-linear group-hover:scale-110 w-[356px] h-[270px] object-cover'
+						className='rounded-t-xl transition-all ease-linear group-hover:scale-110 w-[300px] xl:w-[356px] h-[230px] xl:h-[270px] object-cover'
 						alt='branch'
 						src={img}
 					/>
