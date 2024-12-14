@@ -5,41 +5,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* fonts */
 .notosans {
-  font-family: "Noto Sans", sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
-.dancing{
-  font-family: "Dancing Script", cursive;
+.dancing {
+	font-family: 'Dancing Script', cursive;
 }
 
-.poppins{
-  font-family: "Poppins", sans-serif;
+.poppins {
+	font-family: 'Poppins', sans-serif;
 }
 
-.textorange{
-  color: #E38E49;
+.libre {
+	font-family: 'Libre Baskerville', serif;
 }
 
-.bg_nav{
-  background-image: url("./assets/bg_navbar.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 100vw; 
+.textorange {
+	color: #e38e49;
 }
 
-.searchbar_shadow{
-  box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.3);
+/* shadows and backgrounds */
+.bg_footer {
+	background: #d4cec7;
+	/* background-color: #3a619a;
+    mask-image: url('./assets/wave.svg');
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center; */
+	background-image: url('./assets/wave.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.login_button_shadow{
-  background-color: #0A3981; 
-  box-shadow: 4px 4px 35px rgba(10, 57, 129, 0.8); 
+.bg_nav {
+	background-image: url('./assets/bg_navbar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 99vw;
 }
 
-.login_box_shadow{
-  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+.searchbar_shadow {
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+}
 
+.values_shadow:hover{
+	box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.login_button_shadow {
+	background-color: #0a3981;
+	box-shadow: 4px 4px 20px rgba(10, 57, 129, 0.8);
+}
+
+.login_box_shadow {
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
 }

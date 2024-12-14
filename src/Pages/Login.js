@@ -10,31 +10,35 @@ const Login = () => {
 				<img
 					className='h-[500px]'
 					src={file}
+					alt='heroimg'
 				/>
 			</div>
 			<div className='flex flex-col w-[70vw] mt-[-100px] justify-center items-center'>
 				<Link to='/'>
-					<img src={logo} />
+					<img
+						alt='logo'
+						src={logo}
+					/>
 				</Link>
 				<div className='w-[600px] px-5 rounded-2xl mt-8 pt-12 login_box_shadow'>
-					<h1 className='notosans text-center text-[30px] font-semibold text-[#1F509A]'>
+					<h1 className='poppins font-bold text-center text-[30px] text-[#1F509A]'>
 						LOGIN
 					</h1>
 
 					<div className='mt-10'>
-						<h1 className='poppins text-[17px] font-medium'>Email</h1>
+						<h1 className='poppins text-[15px] font-medium'>Email</h1>
 						<input
 							className='mt-1 outline-none px-2 py-1 poppins text-[#666666] text-[15px]'
 							placeholder='Enter your email'
 						/>
-						<h1 className='mt-4 poppins text-[17px] font-medium'>Password</h1>
+						<h1 className='mt-4 poppins text-[15px] font-medium'>Password</h1>
 						<input
 							className='mt-1 outline-none px-2 py-1 poppins text-[#666666] text-[15px]'
 							placeholder='Your password'
 						/>
 					</div>
 					<div className='flex flex-col items-center justify-center pb-12'>
-						<button className='login_button_shadow transition-all ease-linear mt-12 hover:tracking-wide  font-medium border-none rounded-3xl px-10 py-4 text-white text-[18px] poppins'>
+						<button className='login_button_shadow transition-all ease-linear mt-12 hover:tracking-wide font-medium border-none rounded-sm px-10 py-3 text-white text-[18px] poppins'>
 							Login
 						</button>
 						<p className='poppins text-[13px] font-light mt-3'>

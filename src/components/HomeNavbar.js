@@ -4,7 +4,7 @@ import user from '../assets/user.png'
 import menu from '../assets/menu.png'
 import {Link} from 'react-router-dom'
 
-const Home_navbar = () => {
+const HomeNavbar = () => {
 	const [isUser, setIsUser] = useState(false)
 	return (
 		<>
@@ -13,6 +13,7 @@ const Home_navbar = () => {
 					<img
 						className='w-44'
 						src={logo}
+						alt='logo'
 					/>
 				</Link>
 				<div className='flex items-center justify-center gap-14'>
@@ -34,10 +35,12 @@ const Home_navbar = () => {
 						onClick={() => {
 							setIsUser(!isUser)
 						}}
+						alt='profile'
 						className='h-7 cursor-pointer aspect-square'
 						src={user}
 					/>
 					<img
+						alt='menu'
 						className='h-7 cursor-pointer invert aspect-square'
 						src={menu}
 					/>
@@ -63,4 +66,4 @@ const Home_navbar = () => {
 	)
 }
 
-export default Home_navbar
+export default HomeNavbar

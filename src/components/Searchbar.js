@@ -10,38 +10,42 @@ const Searchbar = () => {
 					<div className='pl-10 flex items-center gap-7'>
 						<div className='px-2 w-[190px] border-[#858585] border-b-[1.75px] flex justify-around items-center'>
 							<input
-								className='w-[160px] notosans text-[14px] font-normal outline-none'
+								className='bg-transparent w-[160px] notosans text-[14px] font-normal outline-none'
 								placeholder='Apartment'></input>
 							<img
 								className=' cursor-pointer px-2 h-4'
 								src={down_arrow}
+								alt='arrow'
 							/>
 						</div>
 						<div className='px-2 w-[100px] border-[#858585] border-b-[1.75px] flex justify-around items-center'>
 							<input
-								className='w-[70px] notosans text-[14px] font-normal outline-none'
+								className='bg-transparent w-[70px] notosans text-[14px] font-normal outline-none'
 								placeholder='Buy/Rent'></input>
 							<img
 								className='cursor-pointer px-2 h-4'
 								src={down_arrow}
+								alt='arrow'
 							/>
 						</div>
 						<div className='px-2 w-[130px] border-[#858585] border-b-[1.75px] flex justify-around items-center'>
 							<input
-								className='w-[100px] notosans text-[14px] font-normal outline-none'
+								className='bg-transparent w-[100px] notosans text-[14px] font-normal outline-none'
 								placeholder='State'></input>
 							<img
 								className=' cursor-pointer px-2 h-4'
 								src={down_arrow}
+								alt='arrow'
 							/>
 						</div>
 						<div className='px-2 w-[130px] border-[#858585] border-b-[1.75px] flex justify-around items-center'>
 							<input
-								className='w-[100px] notosans text-[14px] font-normal outline-none'
+								className='bg-transparent w-[100px] notosans text-[14px] font-normal outline-none'
 								placeholder='District'></input>
 							<img
 								className=' cursor-pointer px-2 h-4'
 								src={down_arrow}
+								alt='arrow'
 							/>
 						</div>
 					</div>
@@ -49,6 +53,7 @@ const Searchbar = () => {
 						<img
 							className='h-6 group-hover:h-7 transition-all ease-linear aspect-square'
 							src={search}
+							alt='search'
 						/>
 						<h1 className='font-semibold text-white notosans text-[17px] tracking-[1px] transition-all ease-linear group-hover:tracking-[2px]'>
 							SEARCH
